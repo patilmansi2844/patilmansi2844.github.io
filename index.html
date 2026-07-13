@@ -475,6 +475,8 @@
       font-weight: 600; font-size: 1.15rem; margin-bottom: 0.6rem;
     }
     .proj-body p { color: var(--muted2); font-size: 0.88rem; line-height: 1.75; margin-bottom: 1.4rem; }
+    .proj-body ul { color: var(--muted2); font-size: 0.85rem; line-height: 1.7; margin: 0 0 1.4rem 1.1rem; }
+    .proj-body ul li { margin-bottom: 0.4rem; }
 
     .proj-tech { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1.4rem; }
     .proj-tech span {
@@ -873,18 +875,18 @@
         <div class="proj-visual proj-visual-task">
           <div class="proj-visual-grid"></div>
           <div class="proj-visual-bg"></div>
-          <div class="proj-visual-icon">📋</div>
+          <div class="proj-visual-icon">🐧</div>
         </div>
         <div class="proj-body">
-          <div class="proj-type">Full Stack</div>
-          <h3>Task Manager App</h3>
-          <p>Real-time task management with drag-and-drop organization, user authentication, and live collaboration features.</p>
+          <div class="proj-type">Linux Administration</div>
+          <h3>Linux System Administration Lab</h3>
+          <ul>
+            <li>Managed Linux (Ubuntu) environments: user/group management, file permissions, cron scheduling, process monitoring, and log analysis.</li>
+            <li>Configured system services and monitored resource utilization (CPU, memory, disk) to maintain environment stability.</li>
+            <li>Wrote Bash scripts to automate repetitive administrative tasks across Linux systems.</li>
+          </ul>
           <div class="proj-tech">
-            <span>React</span><span>Node.js</span><span>MongoDB</span><span>Socket.io</span>
-          </div>
-          <div class="proj-links">
-            <a href="#" class="proj-link">Live Demo ↗</a>
-            <a href="#" class="proj-link">GitHub ↗</a>
+            <span>Ubuntu Linux</span><span>Bash</span><span>Cron</span><span>Systemd</span>
           </div>
         </div>
       </div>
@@ -896,14 +898,14 @@
         </div>
         <div class="proj-body">
           <div class="proj-type">Cloud / DevOps</div>
-          <h3>AWS Cloud Deployment</h3>
-          <p>Scalable cloud infrastructure with EC2, S3, and load balancing — high availability via automated CI/CD pipelines.</p>
+          <h3>AWS Cloud Infrastructure Projects</h3>
+          <ul>
+            <li>Designed and configured AWS VPC environments: public/private subnets, route tables, internet/NAT gateways, and security groups for network isolation.</li>
+            <li>Provisioned EC2 instances with IAM roles and policies following the principle of least privilege; managed S3 bucket permissions.</li>
+            <li>Explored AWS monitoring via CloudWatch metrics and logs to track resource health and set up basic alerts.</li>
+          </ul>
           <div class="proj-tech">
-            <span>AWS EC2</span><span>S3</span><span>GitHub Actions</span><span>Docker</span>
-          </div>
-          <div class="proj-links">
-            <a href="#" class="proj-link">Live Demo ↗</a>
-            <a href="#" class="proj-link">GitHub ↗</a>
+            <span>AWS VPC</span><span>EC2</span><span>IAM</span><span>S3</span><span>CloudWatch</span>
           </div>
         </div>
       </div>
@@ -911,18 +913,17 @@
         <div class="proj-visual proj-visual-py">
           <div class="proj-visual-grid"></div>
           <div class="proj-visual-bg" style="background:radial-gradient(circle at 70% 30%, rgba(244,114,182,0.15), transparent 70%);"></div>
-          <div class="proj-visual-icon">📊</div>
+          <div class="proj-visual-icon">⚙️</div>
         </div>
         <div class="proj-body">
-          <div class="proj-type">Data & Analytics</div>
-          <h3>Python Data Visualizer</h3>
-          <p>Interactive data analysis tool leveraging Pandas and Matplotlib to surface insights from complex datasets.</p>
+          <div class="proj-type">IaC / Kubernetes</div>
+          <h3>3-Tier Web App on AWS with Terraform &amp; Kubernetes</h3>
+          <ul>
+            <li>Deployed a 3-tier web application on AWS using Terraform (IaC), Docker, and Kubernetes with HPA auto-scaling.</li>
+            <li>Built a CI/CD pipeline with GitHub Actions for automated build and deployment.</li>
+          </ul>
           <div class="proj-tech">
-            <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Jupyter</span>
-          </div>
-          <div class="proj-links">
-            <a href="#" class="proj-link">Live Demo ↗</a>
-            <a href="#" class="proj-link">GitHub ↗</a>
+            <span>Terraform</span><span>Docker</span><span>Kubernetes</span><span>HPA</span><span>GitHub Actions</span>
           </div>
         </div>
       </div>
@@ -993,6 +994,41 @@
           <span class="skill-pct">70%</span>
         </div>
         <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #f472b6, #e879f9);"></div></div>
+      </div>
+      <div class="skill-card" data-pct="80">
+        <div class="skill-header">
+          <div class="skill-left"><span class="skill-emoji">🐳</span><span class="skill-name">Docker</span></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #0ea5e9, #2563eb);"></div></div>
+      </div>
+      <div class="skill-card" data-pct="80">
+        <div class="skill-header">
+          <div class="skill-left"><span class="skill-emoji">☸️</span><span class="skill-name">Kubernetes</span></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #6366f1, #3b82f6);"></div></div>
+      </div>
+      <div class="skill-card" data-pct="90">
+        <div class="skill-header">
+          <div class="skill-left"><span class="skill-emoji">🏔️</span><span class="skill-name">Terraform</span></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #a78bfa, #7c3aed);"></div></div>
+      </div>
+      <div class="skill-card" data-pct="80">
+        <div class="skill-header">
+          <div class="skill-left"><span class="skill-emoji">🔧</span><span class="skill-name">Jenkins</span></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #f87171, #ef4444);"></div></div>
+      </div>
+      <div class="skill-card" data-pct="75">
+        <div class="skill-header">
+          <div class="skill-left"><span class="skill-emoji">🐶</span><span class="skill-name">Datadog</span></div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-track"><div class="skill-fill" style="background: linear-gradient(90deg, #a78bfa, #7c2d92);"></div></div>
       </div>
     </div>
   </div>
@@ -1265,4 +1301,3 @@ sections.forEach(s => navIo.observe(s));
 </script>
 </body>
 </html>
-
